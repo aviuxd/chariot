@@ -1,0 +1,99 @@
+.stylized-padding{
+	padding-top: 		65px;
+}
+
+// Chariot Jumbotron
+.chariot-section-padding{
+	@media (min-width: @screen-xs){
+		padding-top: 	60px;
+		padding-bottom: 60px;
+	}
+	@media (min-width: @screen-sm){
+		padding-top: 	60px;
+		padding-bottom: 60px;
+	}
+	@media (min-width: @screen-md){
+		padding-top: 	100px;
+		padding-bottom: 100px;
+	}
+	@media (min-width: @screen-lg){
+		padding-top: 	150px;
+		padding-bottom: 150px
+	}	
+}
+
+.chariot-jumbotron{
+	.jumbotron;
+	.chariot-section-padding;
+}
+
+.chariot-navbar-brand{
+	.navbar-brand;
+	font-family: 	'Josefin Slab', serif;
+	font-size: 		1.6em;
+	color: 			#44b06b;
+}
+
+// Body text
+// -------------------------
+
+p {
+  margin: 0 0 (@line-height-computed / 2);
+}
+
+.chariot-lead {
+  margin-bottom: @line-height-computed;
+  font-size: floor((@font-size-base * 1.15));
+/*   font-weight: 200; */
+  line-height: 1.7;
+
+  @media (min-width: @screen-sm-min) {
+    font-size: (@font-size-base * 1.5);
+  }
+}
+
+// Wufoo Form
+.wufoo-form{
+	.chariot-section-padding;
+	padding-bottom:		20px;
+	#header{
+		font-family:	'Lato', sans-serif; 
+		font-size: 		30px !important;
+	}
+	.buttons{
+		font-size: 		larger;
+	}
+	#title1{
+		font-weight: 	500 !important;	
+	}
+	li{
+		padding-bottom: 25px;
+	}
+}
+
+// Route Tables
+th:nth-child(2), td:nth-child(2){
+	text-align: 		right;
+}
+
+.marketing{
+	text-align: 		center;
+	padding-top: 		40px;
+	padding-bottom:		40px;
+}
+
+.chariot-footer{
+/* 	margin-top: 		65px; */
+	color: 				#fff;
+	background-color:	#44b06b; 
+	height:				150px; 
+	width:				100%; 
+	padding-top:		70px;
+	a{
+			color: 		#fff;
+	}
+}
+
+.footer-padding{
+	padding-left: 		20px;
+}
