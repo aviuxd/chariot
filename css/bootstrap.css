@@ -5934,6 +5934,29 @@ p {
 .wufoo-form li {
   padding-bottom: 25px;
 }
+@media (min-width: 480px) {
+  .chariot-career-padding {
+    padding-top: 60px;
+  }
+}
+@media (min-width: 768px) {
+  .chariot-career-padding {
+    padding-top: 60px;
+  }
+}
+@media (min-width: 992px) {
+  .chariot-career-padding {
+    padding-top: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .chariot-career-padding {
+    padding-top: 150px;
+  }
+}
+.cariot-career-list li {
+  list-style: none;
+}
 th:nth-child(2),
 td:nth-child(2) {
   text-align: right;
